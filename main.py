@@ -28,7 +28,6 @@ def get_daily_info():
     # Simpler greeting and motivational quote with minimal emojis
     greeting = "🌅 Another chance to be better—good morning!"
     quote =    "You don’t need to be perfect—just consistent."
-    divider =  "-----------------------------------------------"
 
     return (
         f"{greeting}\n\n"
@@ -36,7 +35,6 @@ def get_daily_info():
         f"📆 Week: {week_num} | Day of Year: {day_of_year}\n"
         f"🎴 {remaining_days} days left in {now.year}\n\n"
         f"{quote}\n"
-        f"{divider}"
     )
 
 async def send_daily_message():
